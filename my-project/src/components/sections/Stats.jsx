@@ -10,12 +10,25 @@ const Stats = () => {
   ];
 
   return (
-    <SectionWrapper>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+    <SectionWrapper
+      id="stats"
+      title="Our Impact in Numbers"
+      subtitle="Driven by innovation, trusted across the globe."
+      className="bg-gray-100 text-black py-20"
+    >
+      <div className="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
         {stats.map((stat, index) => (
-          <div key={index}>
-            <h2 className="text-4xl font-bold text-blue-400">{stat.value}</h2>
-            <p className="text-gray-400 mt-2">{stat.label}</p>
+          <div
+            key={index}
+            className="group transform transition-all duration-300 hover:scale-105"
+          >
+            <h2 className="text-5xl font-extrabold text-black drop-shadow-sm">
+              {stat.value}
+            </h2>
+            <p className="text-gray-600 font-semibold mt-3 tracking-wide group-hover:text-blue-600 transition-colors">
+              {stat.label}
+            </p>
+            <div className="mt-3 w-12 h-1 mx-auto bg-blue-500 group-hover:w-20 transition-all duration-300 rounded-full"></div>
           </div>
         ))}
       </div>
