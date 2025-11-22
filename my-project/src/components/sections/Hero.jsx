@@ -21,12 +21,13 @@ const Hero = () => {
           </Button>
         </div>
 
-        {/* Hero image */}
-        <div className="flex justify-center">
+
+        {/* Hero image (full-bleed) */}
+        <div className="relative -mx-8 md:-mx-20">
           <img
             src={heroImg}
             alt="Hero"
-            className="w-full max-w-lg rounded-lg shadow-lg object-cover"
+            className="w-screen max-w-none h-64 md:h-[520px] object-cover"
           />
         </div>
       </div>

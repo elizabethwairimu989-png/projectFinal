@@ -5,6 +5,7 @@ import Stats from "./components/sections/Stats";
 import Features from "./components/sections/Features";
 import Products from "./components/sections/Products";
 import Testimonials from "./components/sections/Testimonials";
+import About from "./components/sections/About";  
 import Newsletter from "./components/sections/Newsletter";
 import Footer from "./components/layout/Footer";
 
@@ -17,6 +18,7 @@ function App() {
         <Stats />
         <Features />
         <Products />
+        <About />
         <Testimonials />
         <Newsletter />
       </main>
