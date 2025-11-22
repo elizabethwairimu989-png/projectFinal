@@ -159,6 +159,3 @@ npm run preview
 
 
 
-### 2️⃣ Install Dependencies
-```bash
-npm install
