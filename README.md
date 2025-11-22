@@ -178,12 +178,3 @@ npm run preview
 - Chatbot for customer support  
 - Dark mode toggle
 
-
-
-
-
-
-
-
-## 🧱 Component Architecture
-
