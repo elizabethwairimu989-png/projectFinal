@@ -101,10 +101,13 @@ Images sourced from **Unsplash** and **Freepik**, licensed for free commercial u
 
 ## 🔧 Installation & Setup
 
-### 1️⃣ Clone the Project
-```bash
+```markdown
 git clone https://github.com/elizabethwairimu989-png/projectFinal
 cd projectFinal
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
 
 
 ### 2️⃣ Install Dependencies
