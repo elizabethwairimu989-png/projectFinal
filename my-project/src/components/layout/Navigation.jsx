@@ -8,7 +8,7 @@ const Navigation = () => {
         <li><a href="#home" className="hover:text-blue-300">Home</a></li>
         <li><a href="#features" className="hover:text-blue-300">Features</a></li>
         <li><a href="#products" className="hover:text-blue-300">Products</a></li>
-        <li><a href="#contact" className="hover:text-blue-300">Contact</a></li>
+        <li><a href="#contact" className="hover:text-blue-300">Contacts</a></li>
       </ul>
       <button className="md:hidden text-white">☰</button>
     </nav>
