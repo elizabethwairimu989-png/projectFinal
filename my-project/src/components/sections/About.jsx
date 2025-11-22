@@ -8,7 +8,7 @@ const About = () => {
         {/* Left: Text content */}
         <div>
           <h2 className="text-4xl font-bold text-pink-600 mb-6">
-            About ISA-Tech
+            About ISA-TECH
           </h2>
           <p className="text-gray-700 mb-4">
             ISA-TECH is a forward-thinking technology company dedicated to providing innovative software solutions 
