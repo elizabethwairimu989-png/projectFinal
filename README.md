@@ -32,7 +32,7 @@ Neutral Dark	Background/Text	#111827
 Neutral Gray	Body text	#6B7280
 Light Background	Section backgrounds	#F3F4F6
 
-Chosen for:
+##Chosen for:
 ✔ Trust
 ✔ Professionalism
 ✔ Clarity
@@ -130,38 +130,48 @@ Images sourced from Unsplash and Freepik, licensed for free commercial use.
 
 🔧 Installation & Setup
 1. Clone the project
-git clone https://github.com/elizabethwairimu989-png/projectFinal
+
+-git clone https://github.com/elizabethwairimu989-png/projectFinal
 cd projectFinal
 
-2. Install dependencies
-npm install
+3. Install dependencies
 
-3. Start development server
-npm run dev
+-npm install
 
-4. Create production build
-npm run build
+5. Start development server
 
-5. Preview production build
-npm run preview
+-npm run dev
+
+7. Create production build
+   
+-npm run build
+
+9. Preview production build
+    
+-npm run preview
 
 🧩 Challenges & Solutions
+
 1. Render Deployment Build Failure
 
 Cause: Incorrect Vite commands
+
 Solution: Updated build command + fixed environment settings
 
 2. Layout Breaking on Mobile
 
 Cause: Mixed custom CSS and Tailwind utilities
+
 Fix: Transitioned to 100% Tailwind spacing
 
 3. Component Import Errors
 
 Cause: Refactor changed folder paths
+
 Fix: Organized folder structure + unified import patterns
 
 🚀 Future Roadmap
+
 📌 1. Full Backend API
 
 Node + Express
