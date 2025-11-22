@@ -7,7 +7,6 @@ A modern, responsive, and performance-optimized website for **ISA-TECH**, a tech
 ## 🌐 Live Demo
 [🚀 Visit Live Website](https://projectfinal-z3qq.onrender.com/)
 
-)
 ---
 
 ## 🏢 About ISA-TECH
@@ -75,26 +74,6 @@ This website serves as ISA-TECH’s modern digital presence, showcasing services
 ---
 
 ## 🧱 Component Architecture
-src/
-├─ components/
-│ ├─ common/
-│ │ ├─ Button.jsx
-│ │ ├─ Card.jsx
-│ │ ├─ SectionWrapper.jsx
-│ ├─ sections/
-│ │ ├─ Hero.jsx
-│ │ ├─ Products.jsx
-│ │ ├─ Features.jsx
-│ │ ├─ Stats.jsx
-│ │ └─ Testimonials.jsx
-│ ├─ layout/
-│ │ ├─ Header.jsx
-│ │ ├─ Footer.jsx
-│ │ ├─ Navigation.jsx
-├─ App.jsx
-├─ Index.css
-├─ main.jsx
-└─ assets/
 
 
 **Reusability Approach:**  
@@ -116,16 +95,20 @@ src/
 ---
 
 ## 📸 Image Attribution
-Images sourced from **pixel** , licensed for free commercial use.
+Images sourced from **Unsplash** and **Freepik**, licensed for free commercial use.
 
 ---
 
 ## 🔧 Installation & Setup
 
-### 1️⃣ Clone the Project
-```bash
+```markdown
 git clone https://github.com/elizabethwairimu989-png/projectFinal
 cd projectFinal
+
+### 2️⃣ Install Dependencies
+```bash
+npm install
+
 
 ### 2️⃣ Install Dependencies
 ```bash
@@ -143,8 +126,6 @@ npm run build
 ```bash
 npm run preview
 
----
-
 ## 🧩 Challenges & Solutions
 
 ### 1️⃣ Render Deployment Build Failure
@@ -158,8 +139,6 @@ npm run preview
 ### 3️⃣ Component Import Errors
 - **Cause:** Refactor changed folder paths  
 - **Fix:** Organized folder structure + unified import patterns
-
----
 
 ## 🚀 Future Roadmap
 
@@ -178,4 +157,8 @@ npm run preview
 - Portfolio / case studies  
 - Chatbot for customer support  
 - Dark mode toggle
+
+
+
+
 
