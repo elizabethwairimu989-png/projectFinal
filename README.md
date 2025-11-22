@@ -28,19 +28,14 @@ This website serves as ISA-TECH’s modern digital presence, showcasing services
 ## 🎨 Brand Identity
 
 ### **Color System**
-| Purpose | Color | Hex |
-|---------|-------|-----|
-| **Primary** | Tech Blue | `#1E40AF` |
-| **Secondary** | Sky Blue | `#3B82F6` |
-| **Neutral Dark** | Background/Text | `#111827` |
-| **Neutral Gray** | Body text | `#6B7280` |
-| **Light Background** | Section backgrounds | `#F3F4F6` |
+| Color                    | Hex       | Usage                                               |
+| ------------------------ | --------- | --------------------------------------------------- |
+| **Primary (Tech Blue)**  | `#1E40AF` | Represents trust, intelligence, and professionalism |
+| **Secondary (Sky Blue)** | `#3B82F6` | Emphasizes modernity & energy                       |
+| **Neutral Dark**         | `#111827` | Text & strong contrast areas                        |
+| **Neutral Gray**         | `#6B7280` | Body text & secondary UI                            |
+| **Neutral Light**        | `#F3F4F6` | Backgrounds & sections                              |
 
-**Chosen for:**  
-✔ Trust  
-✔ Professionalism  
-✔ Clarity  
-✔ Modern tech feel
 
 ### **Typography**
 - **Headings:** Poppins / Inter Bold – Strong, modern, corporate look  
