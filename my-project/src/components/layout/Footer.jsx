@@ -34,7 +34,6 @@ const Footer = () => {
             <li>Instagram</li>
             <li>Facebook</li>
             <li>Twitter</li>
-            <li>GitHub</li>
           </ul>
         </div>
       </div>
