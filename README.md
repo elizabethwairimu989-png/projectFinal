@@ -1,4 +1,3 @@
- https://projectfinal-z3qq.onrender.com/
  💼 ISA-TECH – Official Company Website
 
 A modern, responsive, and performance-optimized website for ISA-TECH, a technology solutions company offering software development, IT consulting, hardware services, and digital transformation solutions.
@@ -73,9 +72,7 @@ Minimalistic UI communicates competence
 Technology	Purpose
 React 18	UI rendering
 Vite	Fast development & bundling
-Tailwind CSS 3	Utility-first styling
-Lucide Icons	Lightweight icon set
-SwiperJS	Carousels & sliders
+Tailwind CSS 4	Utility-first styling
 Render	Hosting & deployment
 🧱 Component Architecture
 src/
@@ -85,15 +82,21 @@ src/
  │   │   ├─ Button.jsx
  │   │   ├─ Card.jsx
  │   │   ├─ SectionWrapper.jsx
- │   │   └─ ResponsiveImage.jsx
+ │   │   
  │   ├─ sections/
  │   │   ├─ Hero.jsx
- │   │   ├─ Services.jsx
+ │   │   ├─ Produts.jsx
  │   │   ├─ Features.jsx
  │   │   ├─ Stats.jsx
  │   │   └─ Testimonials.jsx
+ |
+ |   ├─ layout/
+ │   │   ├─ Header.jsx
+ │   │   ├─ Footer.jsx
+ │   │   ├─ Navigation.jsx
  │
  ├─ App.jsx
+ ├─ Index.css
  ├─ main.jsx
  └─ assets/
 
