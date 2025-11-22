@@ -1,10 +1,10 @@
- 💼 ISA-TECH – Official Company Website
+💼 ISA-TECH – Official Company Website
 
 A modern, responsive, and performance-optimized website for ISA-TECH, a technology solutions company offering software development, IT consulting, hardware services, and digital transformation solutions.
 
 🌐 Live Demo
 
-🚀 https://projectfinal-z3qq.onrender.com/
+🚀 Visit Live Website
 
 🏢 About ISA-TECH
 
@@ -32,20 +32,17 @@ Neutral Dark	Background/Text	#111827
 Neutral Gray	Body text	#6B7280
 Light Background	Section backgrounds	#F3F4F6
 
-##Chosen for:
+Chosen for:
 ✔ Trust
 ✔ Professionalism
 ✔ Clarity
 ✔ Modern tech feel
 
-🔤 Typography
-Headings – Poppins / Inter Bold
+Typography
 
-Strong, modern, and suitable for corporate digital branding.
+Headings: Poppins / Inter Bold – Strong, modern, corporate look
 
-Body – Inter Regular
-
-Readable, neutral, elegant — ideal for longer text sections.
+Body: Inter Regular – Readable, neutral, elegant
 
 🧩 UX & Design Decisions
 Layout Structure
@@ -77,32 +74,29 @@ Render	Hosting & deployment
 🧱 Component Architecture
 src/
  ├─ components/
- 
  │   ├─ common/
  │   │   ├─ Button.jsx
  │   │   ├─ Card.jsx
  │   │   ├─ SectionWrapper.jsx
- │   │   
  │   ├─ sections/
  │   │   ├─ Hero.jsx
- │   │   ├─ Produts.jsx
+ │   │   ├─ Products.jsx
  │   │   ├─ Features.jsx
  │   │   ├─ Stats.jsx
  │   │   └─ Testimonials.jsx
- |
- |   ├─ layout/
+ │   ├─ layout/
  │   │   ├─ Header.jsx
  │   │   ├─ Footer.jsx
  │   │   ├─ Navigation.jsx
- │
  ├─ App.jsx
  ├─ Index.css
  ├─ main.jsx
  └─ assets/
 
-Reusability Approach
 
-SectionWrapper unifies padding + spacing
+Reusability Approach:
+
+SectionWrapper unifies padding & spacing
 
 Card component reused in services & testimonials
 
@@ -118,7 +112,7 @@ Vite production build optimizations
 
 Tailwind automatic tree-shaking
 
-Reduced bundle size through modular components
+Reduced bundle size via modular components
 
 Lightweight SVG icons
 
@@ -129,50 +123,38 @@ Cached assets on Render deployment
 Images sourced from Unsplash and Freepik, licensed for free commercial use.
 
 🔧 Installation & Setup
-1. Clone the project
-
--git clone https://github.com/elizabethwairimu989-png/projectFinal
+1️⃣ Clone the Project
+git clone https://github.com/elizabethwairimu989-png/projectFinal
 cd projectFinal
 
-3. Install dependencies
+2️⃣ Install Dependencies
+npm install
 
--npm install
+3️⃣ Start Development Server
+npm run dev
 
-5. Start development server
+4️⃣ Create Production Build
+npm run build
 
--npm run dev
-
-7. Create production build
-   
--npm run build
-
-9. Preview production build
-    
--npm run preview
+5️⃣ Preview Production Build
+npm run preview
 
 🧩 Challenges & Solutions
 
-1. Render Deployment Build Failure
-
+Render Deployment Build Failure
 Cause: Incorrect Vite commands
-
 Solution: Updated build command + fixed environment settings
 
-2. Layout Breaking on Mobile
-
+Layout Breaking on Mobile
 Cause: Mixed custom CSS and Tailwind utilities
-
 Fix: Transitioned to 100% Tailwind spacing
 
-3. Component Import Errors
-
+Component Import Errors
 Cause: Refactor changed folder paths
-
 Fix: Organized folder structure + unified import patterns
 
 🚀 Future Roadmap
-
-📌 1. Full Backend API
+1️⃣ Full Backend API
 
 Node + Express
 
@@ -180,7 +162,7 @@ Services management
 
 Contact/Inquiry system
 
-📌 2. Admin Dashboard
+2️⃣ Admin Dashboard
 
 Add/edit service offerings
 
@@ -188,7 +170,7 @@ Update homepage images
 
 Manage testimonials
 
-📌 3. Enhancements
+3️⃣ Enhancements
 
 Blog section on latest IT trends
 
