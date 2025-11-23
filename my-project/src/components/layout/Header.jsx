@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 
 const Header = () => {
   return (
-    <header>
+    <header className="fixed top-0 left-0 w-full z-50">
       <Navigation />
     </header>
   );
